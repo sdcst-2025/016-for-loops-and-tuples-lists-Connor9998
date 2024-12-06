@@ -8,3 +8,11 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+Number=int(input("Please enter a number less than 10:"))
+
+if 0 <Number< 10:
+    print(f"{people[Number]}")
+
+else:
+    print("DO A NUMBER LESS THAN 10")

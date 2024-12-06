@@ -17,4 +17,8 @@ list of numbers
 20
 """
 
-numList = (25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99)
+numbers = (25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99)
+
+for num in numbers:
+    if num %5 == 0:
+        print(num)
